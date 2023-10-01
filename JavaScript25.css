@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Orbitron', 'sans-serif';
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    padding: 20px;
+    background: #000;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn{
+    border: none;
+    background: rgb(107, 107, 107);
+    color: white;
+    width: 75px;
+    height: 75px;
+}
+
+button{
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+#plmi{
+    border: none;
+    background: rgb(107, 107, 107);
+    color: white;
+    width: 75px;
+    height: 75px;
+}
+
+#equal{
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 5;
+    grid-row-end: 7;
+
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+input{
+    height: 75px;
+    width: 330px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#empty{
+    border: none;
+    width: 75px;
+    height: 75px;
+}
+
+#remove{
+    border: none;
+    width: 75px;
+    height: 75px;
+}
+
+#minus2{
+    border: none;
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+    color: white;
+}
+
+#plus2{
+    border: none;
+    background-color: orange;
+    color: white;
+    width: 75px;
+    height: 75px;
+}
+
+#minus{
+    border: none;
+    background-color: orange;
+    color: white;
+    width: 75px;
+    height: 75px;
+}
+
+#plus{
+    border: none;
+    background-color: orange;
+    color: white;
+    width: 75px;
+    height: 75px;
+}
